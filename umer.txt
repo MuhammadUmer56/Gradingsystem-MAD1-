@@ -1,0 +1,151 @@
+void main() {
+ 
+  Map student ={'maths' : 56,'english':70,'urdu':87,'history':40};
+  
+  print('your marks in maths'); print(student['maths']);
+    print('your marks in english'); print(student['english']);
+  print('your marks in urdu'); print(student['urdu']);
+  print('your marks in history'); print(student['history']);
+  
+  if(student['maths']>80)
+  {
+    print('you got an A in maths');
+  }
+  else if(student['maths']>70)
+  {
+    print('you got an B in maths');
+  }
+  else if(student['maths']>60)
+  {
+    print('you got an C in maths');
+  }
+  else if(student['maths']>50)
+  {
+    print('you got a D in maths');
+  }
+  else 
+  {
+    print('you failed in maths');
+  }
+   if(student['english']>80)
+  {
+    print('you got an A in english');
+  }
+  else if(student['english']>70)
+  {
+    print('you got an B in english');
+  }
+  else if(student['english']>60)
+  {
+    print('you got an C in english');
+  }
+  else if(student['english']>50)
+  {
+    print('you got a D in english');
+  }
+  else 
+  {
+    print('you failed in english');
+  }
+  
+  if(student['urdu']>80)
+  {
+    print('you got an A in urdu');
+  }
+  else if(student['urdu']>70)
+  {
+    print('you got an B in urdu');
+  }
+  else if(student['urdu']>60)
+  {
+    print('you got an C in urdu');
+  }
+  else if(student['urdu']>50)
+  {
+    print('you got a D in urdu');
+  }
+  else 
+  {
+    print('you failed in urdu');
+  }
+   if(student['history']>80)
+  {
+    print('you got an A in history');
+  }
+  else if(student['history']>70)
+  {
+    print('you got an B in history');
+  }
+  else if(student['history']>60)
+  {
+    print('you got an C in history');
+  }
+  else if(student['history']>50)
+  {
+    print('you got a D in history');
+  }
+  else 
+  {
+    print('you failed in history');
+  }
+  
+  int sum=0;
+  int total=400;
+  sum=student['maths']+student['history']+student['urdu']+student['english'];
+  
+  
+  print('the total marks obtained overall is: $sum');
+  print('out of $total');
+  
+  double percentage = sum*100/total;
+  print('the percentage overall is: $percentage');
+  
+  if(percentage>80)
+  {
+    print('grade: A');
+  }
+  else if(percentage>70)
+  {
+    print('grade: B');
+  }
+  else if(percentage>60)
+  {
+    print('grade: C');
+  }
+  else if(percentage>50)
+  {
+    print('grade: D');
+  }
+  else if(percentage>40)
+  {
+    print('grade: E');
+  }
+  else
+  {
+    print('failed!!');
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
